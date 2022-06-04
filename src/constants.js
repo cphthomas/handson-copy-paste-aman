@@ -1204,3 +1204,10 @@ export const data = [
 export const SELECTED_CLASS = "selected";
 export const DEFAULT_ALIGNMENT_CLASS = "htLeft";
 export const ODD_ROW_CLASS = "odd";
+
+export const data2 = [
+  ["", "Tesla", "Volvo", "Toyota", "Honda"],
+  ["2020", 10, 11, 12, 13],
+  ["2021", 20, 11, 14, 13],
+  ["2022", 30, 15, 12, 13]
+];

@@ -1,66 +1,56 @@
+import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
-import { HotTable, HotColumn } from "@handsontable/react";
+import { HotTable } from "@handsontable/react";
 import "handsontable/dist/handsontable.full.css";
-import { data } from "./constants";
+import { data, data2 } from "./constants";
 import "handsontable/dist/handsontable.min.css";
-import { ProgressBarRenderer } from "./renderers/ProgressBar";
-import { StarsRenderer } from "./renderers/Stars";
 
-import {
-  drawCheckboxInRowHeaders,
-  addClassesToRows,
-  changeCheckboxCell,
-  alignHeaders,
-} from "./hooksCallbacks";
+const hotSettings = {
+  data: data2,
+  colHeaders: true,
+  height: "auto",
+  licenseKey: "non-commercial-and-evaluation",
+};
 
 function App() {
+  const hotTableComponent = useRef(null);
+  const [sum, setSum] = useState(0);
+
+  useEffect(() => {}, [hotTableComponent]);
+
+  const isNumber = (n) => {
+    return /^-?[\d.]+(?:e-?\d+)?$/.test(n);
+  };
+
+  const afterUpdateCell = (changes, source) => {
+    if (changes) {
+      console.log("changes", changes);
+      changes.forEach(([row, col, oldValue, newValue]) => {
+        const allValuesOfCol =
+          hotTableComponent.current.hotInstance.getDataAtCol(col);
+        let totalSum = 0;
+        for (const cell of allValuesOfCol) {
+          if (isNumber(cell)) {
+            totalSum += parseFloat(cell);
+          }
+        }
+        setSum(totalSum);
+      });
+    }
+  };
+
   return (
-    <HotTable
-      data={data}
-      height={450}
-      colWidths={[140, 126, 192, 100, 100, 90, 90, 110, 97]}
-      colHeaders={[
-        "Company name",
-        "Country",
-        "Name",
-        "Sell date",
-        "Order ID",
-        "In stock",
-        "Qty",
-        "Progress",
-        "Rating",
-      ]}
-      dropdownMenu={true}
-      hiddenColumns={{
-        indicators: true,
-      }}
-      contextMenu={true}
-      multiColumnSorting={true}
-      filters={true}
-      rowHeaders={true}
-      afterGetColHeader={alignHeaders}
-      beforeRenderer={addClassesToRows}
-      afterGetRowHeader={drawCheckboxInRowHeaders}
-      afterOnCellMouseDown={changeCheckboxCell}
-      manualRowMove={true}
-      licenseKey="non-commercial-and-evaluation"
-    >
-      <HotColumn data={1} />
-      <HotColumn data={2} />
-      <HotColumn data={3} />
-      <HotColumn data={4} type="date" allowInvalid={false} />
-      <HotColumn data={5} />
-      <HotColumn data={6} type="checkbox" className="htCenter" />
-      <HotColumn data={7} type="numeric" />
-      <HotColumn data={8} readOnly={true} className="htMiddle">
-        {/* @ts-ignore Element inherits some props. It's hard to type it. */}
-        <ProgressBarRenderer hot-renderer />
-      </HotColumn>
-      <HotColumn data={9} readOnly={true} className="htCenter">
-        {/* @ts-ignore Element inherits some props. It's hard to type it. */}
-        <StarsRenderer hot-renderer />
-      </HotColumn>
-    </HotTable>
+    <div className="controls">
+      <HotTable
+        ref={hotTableComponent}
+        settings={hotSettings}
+        afterChange={afterUpdateCell}
+      />
+      Sum
+      <br></br>
+      {sum}
+      <br></br>
+    </div>
   );
 }
 
