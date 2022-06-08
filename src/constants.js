@@ -9,7 +9,7 @@ export const data = [
     true,
     "172",
     2,
-    2
+    2,
   ],
   [
     true,
@@ -21,7 +21,7 @@ export const data = [
     true,
     "188",
     6,
-    2
+    2,
   ],
   [
     true,
@@ -33,7 +33,7 @@ export const data = [
     true,
     "162",
     1,
-    3
+    3,
   ],
   [
     false,
@@ -45,7 +45,7 @@ export const data = [
     true,
     "133",
     7,
-    1
+    1,
   ],
   [
     true,
@@ -57,7 +57,7 @@ export const data = [
     true,
     "87",
     1,
-    3
+    3,
   ],
   [
     false,
@@ -69,7 +69,7 @@ export const data = [
     false,
     "26",
     8,
-    1
+    1,
   ],
   [
     false,
@@ -81,7 +81,7 @@ export const data = [
     false,
     "110",
     4,
-    1
+    1,
   ],
   [
     false,
@@ -93,7 +93,7 @@ export const data = [
     true,
     "50",
     4,
-    4
+    4,
   ],
   [
     false,
@@ -105,7 +105,7 @@ export const data = [
     false,
     "160",
     6,
-    1
+    1,
   ],
   [
     false,
@@ -117,7 +117,7 @@ export const data = [
     true,
     "30",
     8,
-    5
+    5,
   ],
   [
     false,
@@ -129,7 +129,7 @@ export const data = [
     true,
     "39",
     7,
-    2
+    2,
   ],
   [
     false,
@@ -141,7 +141,7 @@ export const data = [
     false,
     "96",
     6,
-    1
+    1,
   ],
   [
     false,
@@ -153,7 +153,7 @@ export const data = [
     true,
     "108",
     10,
-    3
+    3,
   ],
   [
     false,
@@ -165,7 +165,7 @@ export const data = [
     false,
     "46",
     1,
-    1
+    1,
   ],
   [
     false,
@@ -177,7 +177,7 @@ export const data = [
     true,
     "97",
     8,
-    3
+    3,
   ],
   [
     false,
@@ -189,7 +189,7 @@ export const data = [
     true,
     "161",
     1,
-    4
+    4,
   ],
   [
     false,
@@ -201,7 +201,7 @@ export const data = [
     true,
     "58",
     4,
-    3
+    3,
   ],
   [
     false,
@@ -213,7 +213,7 @@ export const data = [
     true,
     "92",
     8,
-    3
+    3,
   ],
   [
     false,
@@ -225,7 +225,7 @@ export const data = [
     true,
     "5",
     6,
-    5
+    5,
   ],
   [
     false,
@@ -237,7 +237,7 @@ export const data = [
     true,
     "158",
     4,
-    1
+    1,
   ],
   [
     false,
@@ -249,7 +249,7 @@ export const data = [
     false,
     "121",
     5,
-    4
+    4,
   ],
   [
     false,
@@ -261,7 +261,7 @@ export const data = [
     false,
     "61",
     5,
-    4
+    4,
   ],
   [
     false,
@@ -273,7 +273,7 @@ export const data = [
     true,
     "155",
     2,
-    2
+    2,
   ],
   [
     false,
@@ -285,7 +285,7 @@ export const data = [
     true,
     "162",
     2,
-    4
+    4,
   ],
   [
     false,
@@ -297,7 +297,7 @@ export const data = [
     false,
     "46",
     7,
-    1
+    1,
   ],
   [
     false,
@@ -309,7 +309,7 @@ export const data = [
     true,
     "47",
     4,
-    4
+    4,
   ],
   [
     false,
@@ -321,7 +321,7 @@ export const data = [
     true,
     "104",
     2,
-    3
+    3,
   ],
   [
     false,
@@ -333,7 +333,7 @@ export const data = [
     true,
     "101",
     6,
-    4
+    4,
   ],
   [
     false,
@@ -345,7 +345,7 @@ export const data = [
     true,
     "150",
     10,
-    3
+    3,
   ],
   [
     false,
@@ -357,7 +357,7 @@ export const data = [
     true,
     "42",
     4,
-    2
+    2,
   ],
   [
     false,
@@ -369,7 +369,7 @@ export const data = [
     true,
     "144",
     9,
-    3
+    3,
   ],
   [
     false,
@@ -381,7 +381,7 @@ export const data = [
     true,
     "195",
     4,
-    1
+    1,
   ],
   [
     false,
@@ -393,7 +393,7 @@ export const data = [
     true,
     "199",
     4,
-    4
+    4,
   ],
   [
     false,
@@ -405,7 +405,7 @@ export const data = [
     true,
     "110",
     4,
-    5
+    5,
   ],
   [
     false,
@@ -417,7 +417,7 @@ export const data = [
     true,
     "51",
     4,
-    4
+    4,
   ],
   [
     false,
@@ -429,7 +429,7 @@ export const data = [
     false,
     "69",
     2,
-    5
+    5,
   ],
   [
     false,
@@ -441,7 +441,7 @@ export const data = [
     false,
     "53",
     2,
-    3
+    3,
   ],
   [
     false,
@@ -453,7 +453,7 @@ export const data = [
     true,
     "168",
     1,
-    1
+    1,
   ],
   [
     false,
@@ -465,7 +465,7 @@ export const data = [
     false,
     "58",
     1,
-    4
+    4,
   ],
   [
     false,
@@ -477,7 +477,7 @@ export const data = [
     true,
     "152",
     9,
-    3
+    3,
   ],
   [
     false,
@@ -489,7 +489,7 @@ export const data = [
     true,
     "66",
     4,
-    2
+    2,
   ],
   [
     false,
@@ -501,7 +501,7 @@ export const data = [
     false,
     "112",
     9,
-    2
+    2,
   ],
   [
     false,
@@ -513,7 +513,7 @@ export const data = [
     true,
     "50",
     10,
-    4
+    4,
   ],
   [
     false,
@@ -525,7 +525,7 @@ export const data = [
     false,
     "31",
     3,
-    5
+    5,
   ],
   [
     false,
@@ -537,7 +537,7 @@ export const data = [
     true,
     "132",
     5,
-    5
+    5,
   ],
   [
     false,
@@ -549,7 +549,7 @@ export const data = [
     true,
     "45",
     1,
-    5
+    5,
   ],
   [
     false,
@@ -561,7 +561,7 @@ export const data = [
     true,
     "197",
     4,
-    2
+    2,
   ],
   [
     false,
@@ -573,7 +573,7 @@ export const data = [
     true,
     "190",
     4,
-    3
+    3,
   ],
   [
     false,
@@ -585,7 +585,7 @@ export const data = [
     true,
     "184",
     3,
-    4
+    4,
   ],
   [
     false,
@@ -597,7 +597,7 @@ export const data = [
     true,
     "169",
     3,
-    4
+    4,
   ],
   [
     false,
@@ -609,7 +609,7 @@ export const data = [
     false,
     "152",
     4,
-    4
+    4,
   ],
   [
     false,
@@ -621,7 +621,7 @@ export const data = [
     false,
     "182",
     6,
-    4
+    4,
   ],
   [
     false,
@@ -633,7 +633,7 @@ export const data = [
     true,
     "141",
     6,
-    1
+    1,
   ],
   [
     false,
@@ -645,7 +645,7 @@ export const data = [
     true,
     "169",
     7,
-    1
+    1,
   ],
   [
     false,
@@ -657,7 +657,7 @@ export const data = [
     false,
     "39",
     7,
-    1
+    1,
   ],
   [
     false,
@@ -669,7 +669,7 @@ export const data = [
     true,
     "71",
     8,
-    3
+    3,
   ],
   [
     false,
@@ -681,7 +681,7 @@ export const data = [
     true,
     "148",
     10,
-    3
+    3,
   ],
   [
     false,
@@ -693,7 +693,7 @@ export const data = [
     true,
     "116",
     8,
-    1
+    1,
   ],
   [
     false,
@@ -705,7 +705,7 @@ export const data = [
     true,
     "96",
     10,
-    1
+    1,
   ],
   [
     false,
@@ -717,7 +717,7 @@ export const data = [
     true,
     "35",
     4,
-    2
+    2,
   ],
   [
     false,
@@ -729,7 +729,7 @@ export const data = [
     true,
     "16",
     8,
-    2
+    2,
   ],
   [
     false,
@@ -741,7 +741,7 @@ export const data = [
     true,
     "194",
     2,
-    5
+    5,
   ],
   [
     false,
@@ -753,7 +753,7 @@ export const data = [
     true,
     "24",
     1,
-    3
+    3,
   ],
   [
     false,
@@ -765,7 +765,7 @@ export const data = [
     true,
     "170",
     4,
-    4
+    4,
   ],
   [
     false,
@@ -777,7 +777,7 @@ export const data = [
     true,
     "184",
     9,
-    5
+    5,
   ],
   [
     false,
@@ -789,7 +789,7 @@ export const data = [
     false,
     "153",
     10,
-    4
+    4,
   ],
   [
     false,
@@ -801,7 +801,7 @@ export const data = [
     false,
     "88",
     10,
-    1
+    1,
   ],
   [
     false,
@@ -813,7 +813,7 @@ export const data = [
     true,
     "57",
     9,
-    2
+    2,
   ],
   [
     false,
@@ -825,7 +825,7 @@ export const data = [
     false,
     "62",
     4,
-    1
+    1,
   ],
   [
     false,
@@ -837,7 +837,7 @@ export const data = [
     true,
     "123",
     2,
-    4
+    4,
   ],
   [
     false,
@@ -849,7 +849,7 @@ export const data = [
     true,
     "77",
     10,
-    5
+    5,
   ],
   [
     false,
@@ -861,7 +861,7 @@ export const data = [
     false,
     "199",
     9,
-    4
+    4,
   ],
   [
     false,
@@ -873,7 +873,7 @@ export const data = [
     true,
     "149",
     8,
-    2
+    2,
   ],
   [
     false,
@@ -885,7 +885,7 @@ export const data = [
     false,
     "191",
     9,
-    5
+    5,
   ],
   [
     false,
@@ -897,7 +897,7 @@ export const data = [
     true,
     "150",
     10,
-    2
+    2,
   ],
   [
     false,
@@ -909,7 +909,7 @@ export const data = [
     true,
     "130",
     7,
-    3
+    3,
   ],
   [
     false,
@@ -921,7 +921,7 @@ export const data = [
     true,
     "179",
     1,
-    2
+    2,
   ],
   [
     false,
@@ -933,7 +933,7 @@ export const data = [
     true,
     "98",
     5,
-    3
+    3,
   ],
   [
     false,
@@ -945,7 +945,7 @@ export const data = [
     true,
     "175",
     2,
-    3
+    3,
   ],
   [
     false,
@@ -957,7 +957,7 @@ export const data = [
     true,
     "11",
     1,
-    3
+    3,
   ],
   [
     false,
@@ -969,7 +969,7 @@ export const data = [
     false,
     "184",
     7,
-    4
+    4,
   ],
   [
     false,
@@ -981,7 +981,7 @@ export const data = [
     false,
     "27",
     9,
-    3
+    3,
   ],
   [
     false,
@@ -993,7 +993,7 @@ export const data = [
     true,
     "186",
     3,
-    2
+    2,
   ],
   [
     false,
@@ -1005,7 +1005,7 @@ export const data = [
     true,
     "20",
     3,
-    3
+    3,
   ],
   [
     false,
@@ -1017,7 +1017,7 @@ export const data = [
     false,
     "153",
     2,
-    1
+    1,
   ],
   [
     false,
@@ -1029,7 +1029,7 @@ export const data = [
     true,
     "161",
     8,
-    5
+    5,
   ],
   [
     false,
@@ -1041,7 +1041,7 @@ export const data = [
     true,
     "98",
     10,
-    5
+    5,
   ],
   [
     false,
@@ -1053,7 +1053,7 @@ export const data = [
     true,
     "30",
     7,
-    3
+    3,
   ],
   [
     false,
@@ -1065,7 +1065,7 @@ export const data = [
     true,
     "73",
     10,
-    2
+    2,
   ],
   [
     false,
@@ -1077,7 +1077,7 @@ export const data = [
     true,
     "158",
     9,
-    1
+    1,
   ],
   [
     false,
@@ -1089,7 +1089,7 @@ export const data = [
     true,
     "122",
     5,
-    2
+    2,
   ],
   [
     false,
@@ -1101,7 +1101,7 @@ export const data = [
     true,
     "33",
     2,
-    4
+    4,
   ],
   [
     false,
@@ -1113,7 +1113,7 @@ export const data = [
     true,
     "107",
     6,
-    2
+    2,
   ],
   [
     false,
@@ -1125,7 +1125,7 @@ export const data = [
     true,
     "15",
     1,
-    2
+    2,
   ],
   [
     false,
@@ -1137,7 +1137,7 @@ export const data = [
     true,
     "168",
     5,
-    2
+    2,
   ],
   [
     false,
@@ -1149,7 +1149,7 @@ export const data = [
     true,
     "135",
     4,
-    2
+    2,
   ],
   [
     false,
@@ -1161,7 +1161,7 @@ export const data = [
     true,
     "11",
     1,
-    4
+    4,
   ],
   [
     false,
@@ -1173,7 +1173,7 @@ export const data = [
     true,
     "41",
     6,
-    4
+    4,
   ],
   [
     false,
@@ -1185,7 +1185,7 @@ export const data = [
     true,
     "144",
     6,
-    1
+    1,
   ],
   [
     false,
@@ -1197,8 +1197,8 @@ export const data = [
     true,
     "106",
     1,
-    4
-  ]
+    4,
+  ],
 ];
 
 export const SELECTED_CLASS = "selected";
@@ -1206,8 +1206,9 @@ export const DEFAULT_ALIGNMENT_CLASS = "htLeft";
 export const ODD_ROW_CLASS = "odd";
 
 export const data2 = [
-  ["", "Tesla", "Volvo", "Toyota", "Honda"],
-  ["2020", 10, 11, 12, 13],
-  ["2021", 20, 11, 14, 13],
-  ["2022", 30, 15, 12, 13]
+  [1, 10, 11, 12, 13],
+  [2, 20, 11, 14, 13],
+  [3, 30, 15, 12, 13],
+  [3, 30, 15, 12, 13],
+  [3, 30, 15, 12, 13],
 ];
