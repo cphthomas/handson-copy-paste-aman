@@ -28,9 +28,9 @@ const hotSettings = {
   licenseKey: "non-commercial-and-evaluation",
   // language: "de-DE", => For language
   contextMenu: true,
-  //colHeaders: ['ID', 'Full name', 'Position','Country', 'City'], => For columns custom labels
-  //contextMenu: ["copy", "cut", "paste"], => For copy/paste
-  //maxCols: 2, => For max limit of columns
+  colHeaders: ['ID', 'Full name', 'Position','Country', 'City'], 
+  // contextMenu: ["copy", "cut"],
+  maxCols: 4, 
   //minCols: 1 => For min limit of columns
   hiddenColumns: true,
 };
@@ -71,8 +71,9 @@ function App() {
           alert("Non numeric values are pasted in column");
         } else {
           setTotal(totalSum);
+          // setcolarray(allValuesOfCol);
         }
-        setcolarray(allValuesOfCol);
+        
       });
     }
   };
