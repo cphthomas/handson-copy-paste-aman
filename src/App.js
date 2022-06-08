@@ -2,13 +2,28 @@ import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 import { HotTable } from "@handsontable/react";
 import "handsontable/dist/handsontable.full.css";
-import { data, data2 } from "./constants";
+// import { data, data2 } from "./constants";
 import "handsontable/dist/handsontable.min.css";
 import "handsontable/languages/de-DE";
+import { std, min, max, median, quantileSeq, sum } from 'mathjs';
+
+const data2 = [
+  [1, 2, 2],
+  [2, 10, 11],
+  [3, 20, 11],
+  [4, 30, 15],
+  [5, 33, 15],
+  [6, 30, 15],
+  [7, 30, 15],
+  [8, 30, 15],
+  [9, 30, 15],
+  [10, 30, 15],
+];
 
 const hotSettings = {
   data: data2,
   colHeaders: true,
+  rowHeaders: true,
   height: "auto",
   licenseKey: "non-commercial-and-evaluation",
   // language: "de-DE", => For language
@@ -20,9 +35,12 @@ const hotSettings = {
   hiddenColumns: true,
 };
 
+
+
 function App() {
   const hotTableComponent = useRef(null);
-  const [sum, setSum] = useState(0);
+  const [Total, setTotal] = useState(0);
+  const [colarray, setcolarray] = useState([1.4, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
   useEffect(() => {}, [hotTableComponent]);
 
@@ -52,8 +70,9 @@ function App() {
         if (isNaN(totalSum)) {
           alert("Non numeric values are pasted in column");
         } else {
-          setSum(totalSum);
+          setTotal(totalSum);
         }
+        setcolarray(allValuesOfCol);
       });
     }
   };
@@ -67,8 +86,23 @@ function App() {
       />
       Sum
       <br></br>
-      {sum}
+      {Total}
       <br></br>
+       <br></br>
+                      Antal observationer length {colarray.length}
+                      <br></br>
+                      Mindste obs min {min(...colarray)}
+                      <br></br>
+                      Største obs max {max(...colarray)}
+                      <br></br>
+                      std from mathjs {std(...colarray)}
+                      <br></br>
+                      median from mathjs {median(...colarray)}
+                      <br></br>
+                      Quantile from mathjs {quantileSeq(colarray, 0.9)}
+                      <br></br>
+                      Sum from mathjs {sum(...colarray)}
+                      <br></br>
     </div>
   );
 }
